@@ -6,8 +6,8 @@
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" STYLE="bubble" POSITION="bottom_or_right">
-<stylenode LOCALIZED_TEXT="default" ID="ID_671184412" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#eceff4" BACKGROUND_ALPHA="0" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="2 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" MAX_WIDTH="10 cm" MIN_WIDTH="0 cm" VGAP_QUANTITY="2 pt" CHILD_NODES_ALIGNMENT="BY_CENTER" CHILD_NODES_LAYOUT="AUTO" COMMON_HGAP_QUANTITY="14 pt">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ID="ID_671184412" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#fef6e8" BACKGROUND_ALPHA="0" STYLE="fork" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="2 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" MAX_WIDTH="10 cm" MIN_WIDTH="0 cm" VGAP_QUANTITY="2 pt" CHILD_NODES_ALIGNMENT="BY_CENTER" CHILD_NODES_LAYOUT="AUTO" COMMON_HGAP_QUANTITY="14 pt">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#88c0d0" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_671184412" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="Arial" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#81a1c1" WIDTH="3" DASH="SOLID"/>
@@ -30,8 +30,8 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.selection" COLOR="#e5e9f0" BACKGROUND_COLOR="#5e81ac" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#5e81ac" BORDER_DASH_LIKE_EDGE="false"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" STYLE="bubble" POSITION="bottom_or_right">
-<stylenode LOCALIZED_TEXT="styles.important" ID="ID_779275544" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#bf616a">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.important" ID="ID_779275544" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#bf616a" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
 <icon BUILTIN="yes"/>
 <arrowlink COLOR="#bf616a" TRANSPARENCY="255" DESTINATION="ID_779275544"/>
 <font SIZE="14"/>
@@ -39,19 +39,31 @@
 <stylenode TEXT="Content" COLOR="#3b4252" BACKGROUND_COLOR="#a3be8c" BACKGROUND_ALPHA="0" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="0 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="SOLID">
 <font SIZE="12"/>
 </stylenode>
-<stylenode TEXT="MinorHeading" COLOR="#3b4252" BACKGROUND_COLOR="#ffc0a0">
-<font SIZE="14"/>
+<stylenode TEXT="MajorHeading" COLOR="#3b4252" BACKGROUND_COLOR="#ffff99" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
+<font NAME="SansSerif" SIZE="16"/>
 </stylenode>
-<stylenode TEXT="subHeading" COLOR="#3b4252" BACKGROUND_COLOR="#ffc0a0" BACKGROUND_ALPHA="0">
-<font SIZE="14"/>
+<stylenode TEXT="MinorHeading" COLOR="#3b4252" BACKGROUND_COLOR="#f0c0a0" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
+<font NAME="SansSerif" SIZE="14"/>
+</stylenode>
+<stylenode TEXT="subHeading" COLOR="#3b4252" BACKGROUND_COLOR="#ccffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
+<font NAME="SansSerif" SIZE="14"/>
+</stylenode>
+<stylenode TEXT="subHeadingQuestion" COLOR="#3b4252" BACKGROUND_COLOR="#7aeac5" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
+<font NAME="SansSerif" SIZE="14"/>
+</stylenode>
+<stylenode TEXT="subHeadingReference" COLOR="#3b4252" BACKGROUND_COLOR="#acc7e1" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
+<font NAME="SansSerif" SIZE="14"/>
+</stylenode>
+<stylenode TEXT="subHeadingTransparent" COLOR="#3b4252" BACKGROUND_COLOR="#fef6e8" BACKGROUND_ALPHA="0" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
+<font NAME="SansSerif" SIZE="14"/>
+</stylenode>
+<stylenode TEXT="Question" COLOR="#3b4252" BACKGROUND_COLOR="#7aeac5" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
+<font NAME="Arial" SIZE="12"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" STYLE="bubble" POSITION="bottom_or_right">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" BACKGROUND_COLOR="#ffeee5" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
-<font NAME="Ubuntu" SIZE="18"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#3b4252" BACKGROUND_COLOR="#ffff99" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
-<font NAME="Ubuntu" SIZE="16"/>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" BACKGROUND_COLOR="#eee0d1" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
+<font NAME="SansSerif" SIZE="18"/>
 </stylenode>
 </stylenode>
 </stylenode>

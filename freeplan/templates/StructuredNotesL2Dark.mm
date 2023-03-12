@@ -65,6 +65,12 @@
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" BACKGROUND_COLOR="#eee0d1" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font NAME="SansSerif" SIZE="18"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#3b4252" BACKGROUND_COLOR="#ffff99" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
+<font NAME="SansSerif" SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#3b4252" BACKGROUND_COLOR="#f0c0a0" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
+<font NAME="SansSerif" SIZE="14"/>
+</stylenode>
 </stylenode>
 </stylenode>
 </map_styles>

@@ -54,7 +54,7 @@
 <stylenode TEXT="subHeadingReference" COLOR="#3b4252" BACKGROUND_COLOR="#acc7e1" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
 <font NAME="SansSerif" SIZE="14"/>
 </stylenode>
-<stylenode TEXT="subHeadingTransparent" COLOR="#e5e9f0" BACKGROUND_COLOR="#fef6e8" BACKGROUND_ALPHA="0" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
+<stylenode TEXT="subHeadingTransparent" COLOR="#3b4252" BACKGROUND_COLOR="#fef6e8" BACKGROUND_ALPHA="0" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
 <font NAME="SansSerif" SIZE="14"/>
 </stylenode>
 <stylenode TEXT="Question" COLOR="#3b4252" BACKGROUND_COLOR="#7aeac5" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
@@ -64,6 +64,9 @@
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" STYLE="bubble" POSITION="right">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" BACKGROUND_COLOR="#eee0d1" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font NAME="SansSerif" SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#3b4252" BACKGROUND_COLOR="#ffff99" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
+<font NAME="SansSerif" SIZE="16"/>
 </stylenode>
 </stylenode>
 </stylenode>
